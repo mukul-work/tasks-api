@@ -182,21 +182,21 @@ Frontend runs at `http://localhost:3000`
 
 ### Auth
 
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| `POST` | `/api/v1/auth/register` | ✗ | Register new user |
-| `POST` | `/api/v1/auth/login` | ✗ | Login, receive tokens |
-| `POST` | `/api/v1/auth/refresh` | ✗ | Refresh access token |
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/api/v1/auth/register` | Register new user |
+| `POST` | `/api/v1/auth/login` | Login, receive tokens |
+| `POST` | `/api/v1/auth/refresh` | Refresh access token |
 
 ### Tasks
 
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| `GET` | `/api/v1/tasks` | ✓ | List tasks (paginated) |
-| `GET` | `/api/v1/tasks/:id` | ✓ | Get task by ID |
-| `POST` | `/api/v1/tasks` | ✓ | Create task |
-| `PATCH` | `/api/v1/tasks/:id` | ✓ | Update task |
-| `DELETE` | `/api/v1/tasks/:id` | ✓ | Delete task |
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/api/v1/tasks` | List tasks (paginated) |
+| `GET` | `/api/v1/tasks/:id` | Get task by ID |
+| `POST` | `/api/v1/tasks` | Create task |
+| `PATCH` | `/api/v1/tasks/:id` | Update task |
+| `DELETE` | `/api/v1/tasks/:id` | Delete task |
 
 ### Query Parameters (GET /tasks)
 
