@@ -1,4 +1,4 @@
-# TaskAPI
+# Tasks-API
 
 A production-grade full-stack task management application built with **Node.js + Express + PostgreSQL** on the backend and **Next.js 16** on the frontend. Features JWT authentication, role-based access control, and a full task CRUD system.
 
